@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <map key="path_4" value="user"/>
+  <map key="db" value="community_user"/>
+  <map key="author" value="samuel"/>
+  <map key="project" value="community"/>
+  <map key="path_3" value="community"/>
+  <map key="dbpassword" value="123456"/>
+  <map key="path_2" value="owwang"/>
+  <map key="projectComment" value="\u6b27\u6587\u793e\u533a"/>
+  <map key="package" value="com.owwang.community.user"/>
+  <map key="path_1" value="com"/>
+  <map key="dbuser" value="root"/>
+  <map key="path_all" value="com/owwang/community/user"/>
+</root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<db name="community_user" driverName="com.mysql.jdbc.Driver" userName="root" passWord="123456" url="jdbc:mysql://122.51.105.58:3306/community_user?useUnicode=true&amp;amp;characterEncoding=UTF8">
+  <property name="dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+  <property name="databaseTYPE">MYSQL</property>
+  <property name="generator">&lt;![CDATA[&lt;generator class="native"&gt;&lt;/generator&gt;]]&gt;</property>
+  <property name="driverName">com.mysql.jdbc.Driver</property>
+  <property name="url">jdbc:mysql://122.51.105.58:3306/community_user?useUnicode=true&amp;amp;characterEncoding=UTF8</property>
+  <table name="tb_admin" name2="admin" comment="" key="id">
+    <column name="id" name2="id" type="String" dbtype="VARCHAR" comment="ID" key="PRI" decimal_digits="0" colums_size="20"/>
+    <column name="loginname" name2="loginname" type="String" dbtype="VARCHAR" comment="\u767b\u9646\u540d\u79f0" key="" decimal_digits="0" colums_size="100"/>
+    <column name="password" name2="password" type="String" dbtype="VARCHAR" comment="\u5bc6\u7801" key="" decimal_digits="0" colums_size="100"/>
+    <column name="state" name2="state" type="String" dbtype="VARCHAR" comment="\u72b6\u6001" key="" decimal_digits="0" colums_size="1"/>
+  </table>
+  <table name="tb_user" name2="user" comment="" key="id">
+    <column name="id" name2="id" type="String" dbtype="VARCHAR" comment="ID" key="PRI" decimal_digits="0" colums_size="20"/>
+    <column name="mobile" name2="mobile" type="String" dbtype="VARCHAR" comment="\u624b\u673a\u53f7\u7801" key="" decimal_digits="0" colums_size="100"/>
+    <column name="password" name2="password" type="String" dbtype="VARCHAR" comment="\u5bc6\u7801" key="" decimal_digits="0" colums_size="100"/>
+    <column name="nickname" name2="nickname" type="String" dbtype="VARCHAR" comment="\u6635\u79f0" key="" decimal_digits="0" colums_size="100"/>
+    <column name="sex" name2="sex" type="String" dbtype="VARCHAR" comment="\u6027\u522b" key="" decimal_digits="0" colums_size="2"/>
+    <column name="birthday" name2="birthday" type="java.util.Date" dbtype="DATETIME" comment="\u51fa\u751f\u5e74\u6708\u65e5" key="" decimal_digits="0" colums_size="19"/>
+    <column name="avatar" name2="avatar" type="String" dbtype="VARCHAR" comment="\u5934\u50cf" key="" decimal_digits="0" colums_size="100"/>
+    <column name="email" name2="email" type="String" dbtype="VARCHAR" comment="E-Mail" key="" decimal_digits="0" colums_size="100"/>
+    <column name="regdate" name2="regdate" type="java.util.Date" dbtype="DATETIME" comment="\u6ce8\u518c\u65e5\u671f" key="" decimal_digits="0" colums_size="19"/>
+    <column name="updatedate" name2="updatedate" type="java.util.Date" dbtype="DATETIME" comment="\u4fee\u6539\u65e5\u671f" key="" decimal_digits="0" colums_size="19"/>
+    <column name="lastdate" name2="lastdate" type="java.util.Date" dbtype="DATETIME" comment="\u6700\u540e\u767b\u9646\u65e5\u671f" key="" decimal_digits="0" colums_size="19"/>
+    <column name="online" name2="online" type="Long" dbtype="BIGINT" comment="\u5728\u7ebf\u65f6\u957f\uff08\u5206\u949f\uff09" key="" decimal_digits="0" colums_size="19"/>
+    <column name="interest" name2="interest" type="String" dbtype="VARCHAR" comment="\u5174\u8da3" key="" decimal_digits="0" colums_size="100"/>
+    <column name="personality" name2="personality" type="String" dbtype="VARCHAR" comment="\u4e2a\u6027" key="" decimal_digits="0" colums_size="100"/>
+    <column name="fanscount" name2="fanscount" type="Integer" dbtype="INT" comment="\u7c89\u4e1d\u6570" key="" decimal_digits="0" colums_size="10"/>
+    <column name="followcount" name2="followcount" type="Integer" dbtype="INT" comment="\u5173\u6ce8\u6570" key="" decimal_digits="0" colums_size="10"/>
+  </table>
+</db>
